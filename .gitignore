@@ -1,7 +1,8 @@
 .DS_Store
 
-# big files
+# data files
 *.csv
+*.parquet
 *.pkl
 
 # Byte-compiled / optimized / DLL files
