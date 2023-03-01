@@ -157,3 +157,11 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+models/feature_selection/cache/
+
+models/feature_selection/catboost_info/
+
+models/jshs/catboost_info/
+
+models/jshs/joblib_memmap/
