@@ -168,3 +168,4 @@ models/jshs/joblib_memmap/
 
 models/jshs/saved*
 models/feature_selection/saved*
+*.pickle
