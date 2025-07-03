@@ -165,11 +165,9 @@ models/feature_selection/cache/
 
 models/feature_selection/catboost_info/
 
-models/jshs/catboost_info/
+catboost_info/
+joblib_memmap/
 
-models/jshs/joblib_memmap/
+saved*
 
-models/jshs/saved*
-models/feature_selection/saved*
 *.pickle
-*/joblib_memmap/
