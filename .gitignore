@@ -5,6 +5,9 @@
 *.parquet
 *.csv
 
+# catboost artifacts
+catboost_info
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -168,3 +171,5 @@ models/jshs/joblib_memmap/
 
 models/jshs/saved*
 models/feature_selection/saved*
+*.pickle
+*/joblib_memmap/
