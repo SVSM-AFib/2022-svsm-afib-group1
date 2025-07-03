@@ -14,11 +14,17 @@ This repository contains the code and resources for group 1's atrial fibrillatio
 
 ## Installation
 
-This project is written in Python and requires a virtual environment. The project exclusively uses `uv` for dependency management. After cloning the repository, run the following command to install the dependencies and set up the environment:
+This project is written in Python and requires a virtual environment. The project exclusively uses `uv` for dependency management. After cloning the repository, run the following command to install the dependencies and download the dataset:
 
-    ```bash
-    uv sync
-    ```
+```
+uv run download_dataset.py
+```
+
+Alternatively, you can download the dataset to the `mit-bih-raw` directory manually from [PhysioNet](https://physionet.org/content/afdb/1.0.0/) and then run the following command to install the dependencies:
+    
+```
+uv sync
+```
 
 ## Usage
 
